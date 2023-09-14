@@ -1,0 +1,149 @@
+   76  python3 ok -q sum_digits
+  164  python3 ok -q unique_digits
+  165  python3 ok -q unique_digits
+  167  python3 ok -q unique_digits
+  168  python3 ok -q unique_digits
+  169  python3 ok -q ordered_digits
+  170  python3 ok -q ordered_digits
+  173  python3 ok -q ordered_digits
+  174  python3 ok -q ordered_digits
+  175  python3 ok -q ordered_digits
+  233  python3 ok -q missing_digits
+  234  python3 ok -q missing_digits
+  235  python3 ok -q missing_digits
+  236  python3 ok -q missing_digits
+  645  git init
+  646  git add.
+  647  git add
+  648  git add dist
+  649  git commit -m "First commit"
+  650  git remote add origin <github.com/justinpferdner/codechallenge>
+  651  git remote add origin github.com/justinpferdner/codechallenge
+  652  git remote add origin https://github.com/justinpferdner/codechallenge
+  653  git push -u origin main
+  654  git push -u origin master
+  655  git remote add origin https://github.com/justinpferdner/codechallenge.git
+  656  git remote set-url origin https://github.com/justinpferdner/codechallenge.git
+  657  git add dist
+  658  git commit -m 'Runtime version'
+  826  git --version\n
+  828  git config --global use.name "Justin Pferdner\nexit\nexit\nexit()\n"
+  829  git config --global use.name "Justin Pferdner"
+  830  git config --global --get user.name\n
+  831  git config --global --get use.name
+  832  git config --global user.name "Justin Pferdner"
+  864  git user.name
+  865  git config --global --get user.name\n
+  866  git config --global user.email "justinpferdner@gmail.com"
+  867  git config --global core.editor "code --wait"
+  868  git config --global init.defaultBrach main
+  870  git config --list
+  871  git config --global --unset use.name\n
+  872  git config --list
+  873  git config --global --unset init.defaultbrach
+  874  git config --list
+  875  git config --global init.defaultBranch main
+  876  git config --list
+  922  git clone https://github.com/BYUCS235/cs235-assignments/tree/main/Unit01-Intro-to-cpp/homework1a-intro-to-cpp
+  923  git clone https://github.com/BYUCS235/cs235-assignments
+  952  mkdir git_practice
+  953  cd git_practice
+  956  git init
+  958  git status
+  961  git status
+  962  git add .
+  963  git status
+  964  git commit -m "create new files"
+  965  git status
+  970  git status
+  971  git add file_1.txt
+  972  git status
+  973  git commit file_1.txt -m "add text"
+  974  git status
+  975  git add file_2.txt
+  976  git commit file_2.txt -m "add text to second file"
+  977  git status
+  979  git add Readme.md
+  980  git commit Readme.md -m "add repo title and description"
+  981  nano .gitignore
+  982  nano .gitignore
+  984  git add .gitignore
+  985  git commit .gitignore -m "ignore some files"
+  987  git status
+  990  git status
+ 1015  git branch
+ 1016  git branch features
+ 1017  git status
+ 1021  cd git_practice
+ 1023  git branch features
+ 1024  git status
+ 1025  git log
+ 1026  git checkout feature
+ 1028  git status
+ 1029  git checkout features
+ 1030  git log
+ 1032  git add new_features.txt
+ 1033  git commit new_features.txt -m "add empty file"
+ 1035  git add new_features.txt
+ 1036  git commit new_features.txt "wrote some stuff in the txt file"
+ 1037  git commit new_features.txt-m "wrote some stuff in the txt file"
+ 1038  git status
+ 1039  git commit new_features.txt -m "wrote some stuff in the txt file"
+ 1040  git status
+ 1041  git checkout main
+ 1042  git log
+ 1044  git add .
+ 1045  git commit file_1.txt -m "made some changes"
+ 1046  git branch
+ 1047  git merge feature
+ 1048  git merge features
+ 1049  git commit
+ 1051  git commit -m "merged the feature branch"
+ 1052  git log
+ 1054  git add .
+ 1055  git commit new_features.txt -m "no new features"
+ 1056  git checkout features
+ 1058  git add .
+ 1059  git commit . -m "changed some text"
+ 1060  git checkout main
+ 1061  git merge features
+ 1063  git merge features
+ 1065  git merge features
+ 1067  git checkout features
+ 1069  git add .
+ 1070  git commit new_features.txt -m "fixed conflicts"
+ 1071  git commit
+ 1072  git commit -m "fixing conflicts"
+ 1073  git status
+ 1074  git log
+ 1075  git branch -d features
+ 1076  git remote add origin git@github.com:justinpferdner/git-practice-justinpferdner.git
+ 1077  git push -u origin main
+ 1078  git clone git@github.com:justinpferdner/git-practice_MaryNydegger.git 
+ 1081  mv git-practice_MaryNydegger ../
+ 1085  cd git-practice_MaryNydegger
+ 1087  git branch feature-justinpferdner
+ 1089  git add .
+ 1090  git commit . -m "added justin's file"
+ 1091  git status
+ 1092  git push orgin feature-justinpferdner
+ 1093  git push origin feature-justinpferdner
+ 1095  git branch
+ 1096  git branch feature-justinpferdner
+ 1097  git checkout feature_justinpferdner
+ 1098  git checkout feature-justinpferdner
+ 1100  git log
+ 1102  git branch
+ 1103  git checkout main
+ 1104  git push origin feature-justinpferdner
+ 1105  git status
+ 1106  git push origin/main feature-justinpferdner
+ 1107  git log
+ 1108  git checkout feature-justinpferdner
+ 1110  git add .
+ 1111  git commit another_file.txt -m "testing"
+ 1112  git status
+ 1113  git log
+ 1114  git push origin feature-justinpferdner
+ 1117  cd git_practice
+ 1119  git log --oneline > gitlog.txt

@@ -1,0 +1,12 @@
+494b8e9 fixing conflicts
+3f9547a changed some text
+118002c no new features
+6cca9c7 merged the feature branch
+daf31a9 made some changes
+de3ede3 wrote some stuff in the txt file
+3412eaa add empty file
+f8a539e ignore some files
+0c3f7c5 add repo title and description
+72ce428 add text to second file
+0dfa5f3 add text
+616e79d create new files
